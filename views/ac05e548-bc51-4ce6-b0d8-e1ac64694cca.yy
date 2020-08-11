@@ -22,6 +22,9 @@
         "3d374fc8-e882-4fb8-b567-f0002a4f2d9d",
         "ab80118e-ef70-45f1-8aff-24ad8d2c7052",
         "7c6762da-d93d-4a08-bd55-ea109afaf17b",
+        "3e349b07-747d-4a65-8001-a665f48c2a30",
+        "47281fcb-8bec-4df1-beee-01a7dcd79321",
+        "62ad8d2d-f3bc-428e-a012-66a09ef6d16c",
         "cbbff277-44d0-4f4a-a634-13c1a8844cee"
     ],
     "filterType": "GMRoom",

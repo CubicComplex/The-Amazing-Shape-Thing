@@ -1,5 +1,10 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 52A167CC
+/// @DnDHash : 2E617145
 /// @DnDApplyTo : other
-with(other) instance_destroy();
+/// @DnDArgument : "steps" "1"
+/// @DnDArgument : "alarm" "1"
+with(other) {
+alarm_set(1, 1);
+
+}
