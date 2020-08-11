@@ -1,0 +1,28 @@
+Converting GML script: ${project_dir}\scripts\d_sprite\d_sprite.gml
+Converted description /// @description  d_sprite(sprite, imgn, x, y, scale, rotate, outl)/// @param sprite
+/// @param  imgn
+/// @param  x
+/// @param  y
+/// @param  scale
+/// @param  rotate
+/// @param  outl
+
+Converting GML script: ${project_dir}\objects\o_cont\Create_0.gml
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted string - line 11: 'size' -> "size"
+Converted string - line 12: 'colour' -> "colour"
+Converted string - line 13: 'tex' -> "tex"
+Converted string - line 14: 'tex_size' -> "tex_size"
+
+Converting GML script: ${project_dir}\objects\o_cont\Draw_0.gml
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_hview -> __view_get( e__VW.HView, 0 )
+
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
