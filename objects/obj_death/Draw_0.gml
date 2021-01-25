@@ -17,7 +17,7 @@ if(change_direction == true)
 	/// @DnDArgument : "rot_relative" "1"
 	/// @DnDArgument : "sprite" "sprite_of"
 	/// @DnDArgument : "col" "$FF0000FF"
-	draw_sprite_ext(sprite_of, 0, x + 64, y + 64, 1, 1, image_angle + 180, $FF0000FF & $ffffff, ($FF0000FF >> 24) / $ff);
+	draw_sprite_ext(sprite_of, 0, x + 64, y + 64, 1, 1, image_angle + 180, $FF0000FF & $ffffff, 1);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -34,5 +34,5 @@ else
 	/// @DnDArgument : "rot_relative" "1"
 	/// @DnDArgument : "sprite" "sprite_of"
 	/// @DnDArgument : "col" "$FF0000FF"
-	draw_sprite_ext(sprite_of, 0, x + 0, y + 0, 1, 1, image_angle + 0, $FF0000FF & $ffffff, ($FF0000FF >> 24) / $ff);
+	draw_sprite_ext(sprite_of, 0, x + 0, y + 0, 1, 1, image_angle + 0, $FF0000FF & $ffffff, 1);
 }

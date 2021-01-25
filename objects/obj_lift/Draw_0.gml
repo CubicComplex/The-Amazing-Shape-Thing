@@ -11,7 +11,6 @@ image_speed = 0;
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "obj" "obj_wall"
-/// @DnDSaveInfo : "obj" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 var l0ECC2D2D_0 = collision_point(x + -1, y + 0, obj_wall, true, 1);
 if((l0ECC2D2D_0))
 {
@@ -24,7 +23,6 @@ if((l0ECC2D2D_0))
 	/// @DnDArgument : "y" "4"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "spr_lift_gear"
-	/// @DnDSaveInfo : "sprite" "bdaf98a8-84a6-42c6-b85e-b64e3dc89083"
 	draw_sprite(spr_lift_gear, 0, x + -16, y + 4);
 }
 
@@ -35,7 +33,6 @@ if((l0ECC2D2D_0))
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "obj" "obj_wall"
-/// @DnDSaveInfo : "obj" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 var l3B7E1D35_0 = collision_point(x + 65, y + 0, obj_wall, true, 1);
 if((l3B7E1D35_0))
 {
@@ -48,7 +45,6 @@ if((l3B7E1D35_0))
 	/// @DnDArgument : "y" "4"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "spr_lift_gear"
-	/// @DnDSaveInfo : "sprite" "bdaf98a8-84a6-42c6-b85e-b64e3dc89083"
 	draw_sprite(spr_lift_gear, 0, x + 48, y + 4);
 }
 
@@ -75,7 +71,6 @@ if(activated == true)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_lift"
 		/// @DnDArgument : "image" "2"
-		/// @DnDSaveInfo : "sprite" "ee34c8d5-8856-4284-9c52-36e53cf15541"
 		draw_sprite(spr_lift, 2, x + 0, y + 0);
 	}
 
@@ -93,7 +88,6 @@ if(activated == true)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_lift"
 		/// @DnDArgument : "image" "1"
-		/// @DnDSaveInfo : "sprite" "ee34c8d5-8856-4284-9c52-36e53cf15541"
 		draw_sprite(spr_lift, 1, x + 0, y + 0);
 	}
 }
@@ -110,6 +104,5 @@ else
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "spr_lift"
-	/// @DnDSaveInfo : "sprite" "ee34c8d5-8856-4284-9c52-36e53cf15541"
 	draw_sprite(spr_lift, 0, x + 0, y + 0);
 }

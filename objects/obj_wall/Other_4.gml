@@ -7,7 +7,6 @@
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_wall_back"
 /// @DnDArgument : "layer" ""Level""
-/// @DnDSaveInfo : "objectid" "27bc4351-b569-4f8a-94e1-c68d010ebba5"
 instance_create_layer(x + -4, y + -4, "Level", obj_wall_back);
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -19,7 +18,6 @@ instance_create_layer(x + -4, y + -4, "Level", obj_wall_back);
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_wall"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 6977E6F2
@@ -31,7 +29,6 @@ instance_create_layer(x + -4, y + -4, "Level", obj_wall_back);
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_wall_edge"
 /// @DnDArgument : "layer" ""Level""
-/// @DnDSaveInfo : "objectid" "02840be9-6ba8-49fa-b132-64c34034731f"
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
@@ -42,7 +39,6 @@ instance_create_layer(x + -4, y + -4, "Level", obj_wall_back);
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_wall"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 0ECB43C6
@@ -54,4 +50,3 @@ instance_create_layer(x + -4, y + -4, "Level", obj_wall_back);
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_wall_floor_back"
 /// @DnDArgument : "layer" ""Level""
-/// @DnDSaveInfo : "objectid" "53d343c4-6e77-4278-ba3e-adff3af1eaf0"

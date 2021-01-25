@@ -11,7 +11,6 @@ image_speed = 0;
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "obj" "obj_wall"
-/// @DnDSaveInfo : "obj" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 var l219899E9_0 = collision_point(x + -1, y + 0, obj_wall, true, 1);
 if((l219899E9_0))
 {
@@ -24,7 +23,6 @@ if((l219899E9_0))
 	/// @DnDArgument : "y" "4"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "spr_lift_gear"
-	/// @DnDSaveInfo : "sprite" "bdaf98a8-84a6-42c6-b85e-b64e3dc89083"
 	draw_sprite(spr_lift_gear, 0, x + -16, y + 4);
 }
 
@@ -35,7 +33,6 @@ if((l219899E9_0))
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "obj" "obj_wall"
-/// @DnDSaveInfo : "obj" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 var l492847B8_0 = collision_point(x + 65, y + 0, obj_wall, true, 1);
 if((l492847B8_0))
 {
@@ -48,7 +45,6 @@ if((l492847B8_0))
 	/// @DnDArgument : "y" "4"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "spr_lift_gear"
-	/// @DnDSaveInfo : "sprite" "bdaf98a8-84a6-42c6-b85e-b64e3dc89083"
 	draw_sprite(spr_lift_gear, 0, x + 48, y + 4);
 }
 
@@ -75,7 +71,6 @@ if(activated == true)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_square_lift"
 		/// @DnDArgument : "image" "2"
-		/// @DnDSaveInfo : "sprite" "9500e9a6-b74b-4184-b235-355af23f5624"
 		draw_sprite(spr_square_lift, 2, x + 0, y + 0);
 	}
 
@@ -93,7 +88,6 @@ if(activated == true)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_square_lift"
 		/// @DnDArgument : "image" "1"
-		/// @DnDSaveInfo : "sprite" "9500e9a6-b74b-4184-b235-355af23f5624"
 		draw_sprite(spr_square_lift, 1, x + 0, y + 0);
 	}
 }
@@ -110,6 +104,5 @@ else
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "spr_square_lift"
-	/// @DnDSaveInfo : "sprite" "9500e9a6-b74b-4184-b235-355af23f5624"
 	draw_sprite(spr_square_lift, 0, x + 0, y + 0);
 }

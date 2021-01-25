@@ -1,6 +1,13 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 27C0EBE1
+/// @DnDArgument : "expr" "shape_name"
+/// @DnDArgument : "var" "global.name_temp"
+global.name_temp = shape_name;
+
 /// @DnDAction : YoYo Games.Instances.Change_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 3A587A49
 /// @DnDArgument : "objind" "obj_octogon"
-/// @DnDSaveInfo : "objind" "d97c3483-5b9b-46ed-be82-70e15c5fe881"
+/// @DnDSaveInfo : "objind" "obj_octogon"
 instance_change(obj_octogon, true);

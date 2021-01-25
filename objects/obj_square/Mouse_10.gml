@@ -8,4 +8,3 @@
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_square_highlight"
 /// @DnDArgument : "layer" ""Entities""
-/// @DnDSaveInfo : "objectid" "716f5ebc-704e-4b1b-8ae4-e84ba4d63532"

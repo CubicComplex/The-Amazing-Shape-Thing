@@ -6,7 +6,6 @@
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "obj" "controller_water_level"
 /// @DnDArgument : "shape" "1"
-/// @DnDSaveInfo : "obj" "fe109793-fa97-4319-a3b3-b6bec8d30649"
 var l79B64135_0 = collision_rectangle(0, 0, 64, y + 32, controller_water_level, true, 1);
 if((l79B64135_0))
 {
@@ -19,7 +18,6 @@ if((l79B64135_0))
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_wall"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 	var l774A52B7_0 = instance_place(x + 0, y + -1, obj_wall);
 	if (!(l774A52B7_0 > 0))
 	{
@@ -43,7 +41,6 @@ if((l79B64135_0))
 /// @DnDArgument : "y2" "room_height"
 /// @DnDArgument : "obj" "controller_water_level"
 /// @DnDArgument : "shape" "1"
-/// @DnDSaveInfo : "obj" "fe109793-fa97-4319-a3b3-b6bec8d30649"
 var l27A3D6F7_0 = collision_rectangle(0, y + 64, 64, room_height, controller_water_level, true, 1);
 if((l27A3D6F7_0))
 {
@@ -56,7 +53,6 @@ if((l27A3D6F7_0))
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_wall"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 	var l39CFE605_0 = instance_place(x + 0, y + 1, obj_wall);
 	if (!(l39CFE605_0 > 0))
 	{

@@ -11,7 +11,6 @@ image_speed = 0;
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_rectangle_part"
-/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 var l451E8549_0 = instance_place(x + 1, y + 0, abstract_rectangle_part);
 if ((l451E8549_0 > 0))
 {
@@ -24,7 +23,6 @@ if ((l451E8549_0 > 0))
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "abstract_rectangle_part"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 	var l6C13C34C_0 = instance_place(x + -1, y + 0, abstract_rectangle_part);
 	if (!(l6C13C34C_0 > 0))
 	{
@@ -36,7 +34,6 @@ if ((l451E8549_0 > 0))
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_rectangle_wall"
 		/// @DnDArgument : "image" "4"
-		/// @DnDSaveInfo : "sprite" "00eef635-f55e-426b-b9af-e5b7da4d007c"
 		draw_sprite(spr_rectangle_wall, 4, x + 0, y + 0);
 	}
 }
@@ -48,7 +45,6 @@ if ((l451E8549_0 > 0))
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_rectangle_part"
-/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 var l3114891F_0 = instance_place(x + 1, y + 0, abstract_rectangle_part);
 if ((l3114891F_0 > 0))
 {
@@ -61,7 +57,6 @@ if ((l3114891F_0 > 0))
 	/// @DnDArgument : "y" "5"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "abstract_rectangle_part"
-	/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 	var l7C9F02F3_0 = instance_place(x + -1, y + 5, abstract_rectangle_part);
 	if ((l7C9F02F3_0 > 0))
 	{
@@ -73,7 +68,6 @@ if ((l3114891F_0 > 0))
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_rectangle_wall"
 		/// @DnDArgument : "image" "5"
-		/// @DnDSaveInfo : "sprite" "00eef635-f55e-426b-b9af-e5b7da4d007c"
 		draw_sprite(spr_rectangle_wall, 5, x + 0, y + 0);
 	}
 }
@@ -86,7 +80,6 @@ if ((l3114891F_0 > 0))
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_rectangle_part"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 var l64A91270_0 = instance_place(x + 1, y + 0, abstract_rectangle_part);
 if (!(l64A91270_0 > 0))
 {
@@ -98,7 +91,6 @@ if (!(l64A91270_0 > 0))
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "abstract_rectangle_part"
-	/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 	var l2CE20D7A_0 = instance_place(x + -1, y + 0, abstract_rectangle_part);
 	if ((l2CE20D7A_0 > 0))
 	{
@@ -110,7 +102,6 @@ if (!(l64A91270_0 > 0))
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_rectangle_wall"
 		/// @DnDArgument : "image" "6"
-		/// @DnDSaveInfo : "sprite" "00eef635-f55e-426b-b9af-e5b7da4d007c"
 		draw_sprite(spr_rectangle_wall, 6, x + 0, y + 0);
 	}
 }

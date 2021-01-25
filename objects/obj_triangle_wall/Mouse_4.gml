@@ -1,14 +1,21 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 16A1ECC4
+/// @DnDArgument : "expr" "shape_name"
+/// @DnDArgument : "var" "global.name_temp"
+global.name_temp = shape_name;
+
 /// @DnDAction : YoYo Games.Instances.Change_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 3A587A49
 /// @DnDArgument : "objind" "obj_triangle"
-/// @DnDSaveInfo : "objind" "64a1d4f3-157f-4559-8873-56bd28d38386"
+/// @DnDSaveInfo : "objind" "obj_triangle"
 instance_change(obj_triangle, true);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3A646167
-/// @DnDApplyTo : 1fccca90-adcc-408a-bf03-0e3addfaba7c
+/// @DnDApplyTo : abstract_character
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "selected"
 with(abstract_character) {

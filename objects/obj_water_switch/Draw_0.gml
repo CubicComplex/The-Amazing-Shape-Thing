@@ -19,7 +19,6 @@ if(activated == true)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "spr_water_switch"
 	/// @DnDArgument : "image" "1"
-	/// @DnDSaveInfo : "sprite" "d9d542ae-1818-44fd-9295-8dc19e4df07f"
 	draw_sprite(spr_water_switch, 1, x + 0, y + 0);
 }
 
@@ -35,6 +34,5 @@ else
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "spr_water_switch"
-	/// @DnDSaveInfo : "sprite" "d9d542ae-1818-44fd-9295-8dc19e4df07f"
 	draw_sprite(spr_water_switch, 0, x + 0, y + 0);
 }

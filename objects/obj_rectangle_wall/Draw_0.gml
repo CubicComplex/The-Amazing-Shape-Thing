@@ -17,7 +17,6 @@ draw_self();
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_rectangle_part"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 var l46D9CD11_0 = instance_place(x + 1, y + 0, abstract_rectangle_part);
 if (!(l46D9CD11_0 > 0))
 {
@@ -30,7 +29,6 @@ if (!(l46D9CD11_0 > 0))
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "abstract_rectangle_part"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 	var l76FB8F62_0 = instance_place(x + -1, y + 0, abstract_rectangle_part);
 	if (!(l76FB8F62_0 > 0))
 	{
@@ -41,7 +39,6 @@ if (!(l46D9CD11_0 > 0))
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_rectangle_wall"
-		/// @DnDSaveInfo : "sprite" "00eef635-f55e-426b-b9af-e5b7da4d007c"
 		draw_sprite(spr_rectangle_wall, 0, x + 0, y + 0);
 	}
 }
@@ -53,7 +50,6 @@ if (!(l46D9CD11_0 > 0))
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_rectangle_part"
-/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 var l723D5B9C_0 = instance_place(x + 1, y + 0, abstract_rectangle_part);
 if ((l723D5B9C_0 > 0))
 {
@@ -66,7 +62,6 @@ if ((l723D5B9C_0 > 0))
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "abstract_rectangle_part"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 	var l47D38F3C_0 = instance_place(x + -1, y + 0, abstract_rectangle_part);
 	if (!(l47D38F3C_0 > 0))
 	{
@@ -78,7 +73,6 @@ if ((l723D5B9C_0 > 0))
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_rectangle_wall"
 		/// @DnDArgument : "image" "1"
-		/// @DnDSaveInfo : "sprite" "00eef635-f55e-426b-b9af-e5b7da4d007c"
 		draw_sprite(spr_rectangle_wall, 1, x + 0, y + 0);
 	}
 }
@@ -90,7 +84,6 @@ if ((l723D5B9C_0 > 0))
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_rectangle_part"
-/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 var l3D1B3274_0 = instance_place(x + 1, y + 0, abstract_rectangle_part);
 if ((l3D1B3274_0 > 0))
 {
@@ -102,7 +95,6 @@ if ((l3D1B3274_0 > 0))
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "abstract_rectangle_part"
-	/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 	var l6D7A05F8_0 = instance_place(x + -1, y + 0, abstract_rectangle_part);
 	if ((l6D7A05F8_0 > 0))
 	{
@@ -114,7 +106,6 @@ if ((l3D1B3274_0 > 0))
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_rectangle_wall"
 		/// @DnDArgument : "image" "2"
-		/// @DnDSaveInfo : "sprite" "00eef635-f55e-426b-b9af-e5b7da4d007c"
 		draw_sprite(spr_rectangle_wall, 2, x + 0, y + 0);
 	}
 }
@@ -127,7 +118,6 @@ if ((l3D1B3274_0 > 0))
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_rectangle_part"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 var l3782639F_0 = instance_place(x + 1, y + 0, abstract_rectangle_part);
 if (!(l3782639F_0 > 0))
 {
@@ -139,7 +129,6 @@ if (!(l3782639F_0 > 0))
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "abstract_rectangle_part"
-	/// @DnDSaveInfo : "object" "03098275-7aca-4994-994f-856acfb531b1"
 	var l31C48E5E_0 = instance_place(x + -1, y + 0, abstract_rectangle_part);
 	if ((l31C48E5E_0 > 0))
 	{
@@ -151,7 +140,6 @@ if (!(l3782639F_0 > 0))
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "sprite" "spr_rectangle_wall"
 		/// @DnDArgument : "image" "3"
-		/// @DnDSaveInfo : "sprite" "00eef635-f55e-426b-b9af-e5b7da4d007c"
 		draw_sprite(spr_rectangle_wall, 3, x + 0, y + 0);
 	}
 }

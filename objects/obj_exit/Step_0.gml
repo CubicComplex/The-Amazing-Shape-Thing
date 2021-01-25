@@ -4,7 +4,6 @@
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_circle"
-/// @DnDSaveInfo : "object" "a05cbb77-1319-4e91-923b-0802e9eef35d"
 var l3042E656_0 = instance_place(x + 0, y + 0, obj_circle);
 if ((l3042E656_0 > 0))
 {

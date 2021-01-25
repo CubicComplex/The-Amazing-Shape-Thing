@@ -6,7 +6,6 @@
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_wall"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 var l2C0E3777_0 = instance_place(x + -1, y + 0, obj_wall);
 if (!(l2C0E3777_0 > 0))
 {
@@ -19,7 +18,6 @@ if (!(l2C0E3777_0 > 0))
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_rectangle_extension"
 	/// @DnDArgument : "layer" ""entities""
-	/// @DnDSaveInfo : "objectid" "d7e2e2ae-5bf1-4ead-8923-e33f76dad332"
 	instance_create_layer(x + -64, y + 0, "entities", obj_rectangle_extension);
 }
 
@@ -31,7 +29,6 @@ if (!(l2C0E3777_0 > 0))
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_wall"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 var l2734C682_0 = instance_place(x + 1, y + 0, obj_wall);
 if (!(l2734C682_0 > 0))
 {
@@ -44,6 +41,5 @@ if (!(l2734C682_0 > 0))
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_rectangle_extension"
 	/// @DnDArgument : "layer" ""entities""
-	/// @DnDSaveInfo : "objectid" "d7e2e2ae-5bf1-4ead-8923-e33f76dad332"
 	instance_create_layer(x + 64, y + 0, "entities", obj_rectangle_extension);
 }

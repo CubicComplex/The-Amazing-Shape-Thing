@@ -6,7 +6,6 @@
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_character"
 /// @DnDArgument : "aslist" "1"
-/// @DnDSaveInfo : "object" "1fccca90-adcc-408a-bf03-0e3addfaba7c"
 var l7B5B2E92_0 = ds_list_create();
 var l7B5B2E92_1 = instance_place_list(x + 0, y + -4, abstract_character, l7B5B2E92_0, true);
 ds_list_destroy(l7B5B2E92_0);
@@ -52,14 +51,13 @@ if(activated == true)
 	/// @DnDArgument : "y2" "room_height"
 	/// @DnDArgument : "obj" "controller_water_level"
 	/// @DnDArgument : "shape" "1"
-	/// @DnDSaveInfo : "obj" "fe109793-fa97-4319-a3b3-b6bec8d30649"
 	var l06CA7B3C_0 = collision_rectangle(0, y + 64, 64, room_height, controller_water_level, true, 1);
 	if((l06CA7B3C_0))
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 658C26F4
-		/// @DnDApplyTo : fe109793-fa97-4319-a3b3-b6bec8d30649
+		/// @DnDApplyTo : controller_water_level
 		/// @DnDParent : 06CA7B3C
 		/// @DnDArgument : "expr" "-1"
 		/// @DnDArgument : "expr_relative" "1"
@@ -79,14 +77,13 @@ if(activated == true)
 	/// @DnDArgument : "y2_relative" "1"
 	/// @DnDArgument : "obj" "controller_water_level"
 	/// @DnDArgument : "shape" "1"
-	/// @DnDSaveInfo : "obj" "fe109793-fa97-4319-a3b3-b6bec8d30649"
 	var l6E0ECFF4_0 = collision_rectangle(0, 0, 64, y + 32, controller_water_level, true, 1);
 	if((l6E0ECFF4_0))
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2D34F8E1
-		/// @DnDApplyTo : fe109793-fa97-4319-a3b3-b6bec8d30649
+		/// @DnDApplyTo : controller_water_level
 		/// @DnDParent : 6E0ECFF4
 		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "expr_relative" "1"

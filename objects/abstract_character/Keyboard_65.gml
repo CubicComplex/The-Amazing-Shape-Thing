@@ -6,7 +6,6 @@
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_wall"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 var l58EAA62E_0 = instance_place(x + -3, y + 0, obj_wall);
 if (!(l58EAA62E_0 > 0))
 {

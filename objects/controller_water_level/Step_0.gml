@@ -7,7 +7,6 @@
 /// @DnDArgument : "y2" "room_height"
 /// @DnDArgument : "obj" "abstract_character"
 /// @DnDArgument : "shape" "1"
-/// @DnDSaveInfo : "obj" "1fccca90-adcc-408a-bf03-0e3addfaba7c"
 var l75A24602_0 = collision_rectangle(x + 0, y + 0, room_width, room_height, abstract_character, true, 1);
 if((l75A24602_0))
 {
@@ -22,7 +21,6 @@ if((l75A24602_0))
 	/// @DnDArgument : "obj" "obj_triangle"
 	/// @DnDArgument : "shape" "1"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "obj" "64a1d4f3-157f-4559-8873-56bd28d38386"
 	var l7D910EE7_0 = collision_rectangle(x + 0, y + 0, room_width, room_height, obj_triangle, true, 1);
 	if(!(l7D910EE7_0))
 	{

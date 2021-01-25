@@ -4,7 +4,6 @@
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_square_wall"
-/// @DnDSaveInfo : "object" "3060bcf6-12db-4620-8323-859b0feebdb1"
 var l68BD65C5_0 = instance_place(x + 0, y + 0, obj_square_wall);
 if ((l68BD65C5_0 > 0))
 {
@@ -15,7 +14,6 @@ if ((l68BD65C5_0 > 0))
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_square"
-	/// @DnDSaveInfo : "objectid" "b13ce2be-ec07-47a6-97fd-b64b67f189ab"
 	instance_create_layer(x + 0, y + 0, "Instances", obj_square);
 }
 

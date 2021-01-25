@@ -27,7 +27,6 @@ if(activated == true)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_wall"
-	/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 	var l7F074D66_0 = instance_place(x + -1, y + 0, obj_wall);
 	if ((l7F074D66_0 > 0))
 	{
@@ -40,7 +39,6 @@ if(activated == true)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "object" "obj_triangle_wall"
 		/// @DnDArgument : "not" "1"
-		/// @DnDSaveInfo : "object" "75bb3d9d-eda9-44e6-9eb6-09f3b0942a3c"
 		var l40AC3C35_0 = instance_place(x + -1, y + 0, obj_triangle_wall);
 		if (!(l40AC3C35_0 > 0))
 		{
@@ -62,7 +60,6 @@ if(activated == true)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_wall"
-	/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 	var l37929018_0 = instance_place(x + 1, y + 0, obj_wall);
 	if ((l37929018_0 > 0))
 	{
@@ -75,7 +72,6 @@ if(activated == true)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "object" "obj_triangle_wall"
 		/// @DnDArgument : "not" "1"
-		/// @DnDSaveInfo : "object" "75bb3d9d-eda9-44e6-9eb6-09f3b0942a3c"
 		var l2E33A27E_0 = instance_place(x + 1, y + 0, obj_triangle_wall);
 		if (!(l2E33A27E_0 > 0))
 		{
@@ -99,7 +95,6 @@ if(activated == true)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_wall"
 	/// @DnDArgument : "destroylist" "false"
-	/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 	var l7243ED83_0 = instance_place(x + -1, y + -64, obj_wall);
 	if ((l7243ED83_0 > 0))
 	{
@@ -114,7 +109,6 @@ if(activated == true)
 		/// @DnDArgument : "object" "obj_triangle_wall"
 		/// @DnDArgument : "not" "1"
 		/// @DnDArgument : "destroylist" "false"
-		/// @DnDSaveInfo : "object" "75bb3d9d-eda9-44e6-9eb6-09f3b0942a3c"
 		var l46B176EE_0 = instance_place(x + -1, y + -64, obj_triangle_wall);
 		if (!(l46B176EE_0 > 0))
 		{
@@ -138,7 +132,6 @@ if(activated == true)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_wall"
 	/// @DnDArgument : "destroylist" "false"
-	/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 	var l073F9DD4_0 = instance_place(x + 1, y + -64, obj_wall);
 	if ((l073F9DD4_0 > 0))
 	{
@@ -153,7 +146,6 @@ if(activated == true)
 		/// @DnDArgument : "object" "obj_triangle_wall"
 		/// @DnDArgument : "not" "1"
 		/// @DnDArgument : "destroylist" "false"
-		/// @DnDSaveInfo : "object" "75bb3d9d-eda9-44e6-9eb6-09f3b0942a3c"
 		var l313B24A6_0 = instance_place(x + 1, y + -64, obj_triangle_wall);
 		if (!(l313B24A6_0 > 0))
 		{
@@ -210,7 +202,6 @@ else
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_wall"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "object" "eefe74fa-b2b7-43f5-9882-70bf5cacefe1"
 	var l6F0B391A_0 = instance_place(x + 0, y + 1, obj_wall);
 	if (!(l6F0B391A_0 > 0))
 	{
@@ -234,7 +225,6 @@ else
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_character"
 /// @DnDArgument : "aslist" "1"
-/// @DnDSaveInfo : "object" "1fccca90-adcc-408a-bf03-0e3addfaba7c"
 var l4D806394_0 = ds_list_create();
 var l4D806394_1 = instance_place_list(x + 0, y + -4, abstract_character, l4D806394_0, true);
 ds_list_destroy(l4D806394_0);

@@ -2,13 +2,13 @@
 /// @DnDVersion : 1
 /// @DnDHash : 7E46F1CD
 /// @DnDArgument : "objind" "obj_square"
-/// @DnDSaveInfo : "objind" "b13ce2be-ec07-47a6-97fd-b64b67f189ab"
+/// @DnDSaveInfo : "objind" "obj_square"
 instance_change(obj_square, true);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3A646167
-/// @DnDApplyTo : 1fccca90-adcc-408a-bf03-0e3addfaba7c
+/// @DnDApplyTo : abstract_character
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "selected"
 with(abstract_character) {
@@ -22,3 +22,10 @@ selected = false;
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "selected"
 selected = true;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 693C2B80
+/// @DnDArgument : "expr" "shape_name"
+/// @DnDArgument : "var" "global.name_temp"
+global.name_temp = shape_name;
