@@ -4,9 +4,10 @@
 /// @DnDArgument : "x" "3"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_wall"
+/// @DnDArgument : "object" "abstract_wall"
 /// @DnDArgument : "not" "1"
-var l5F663A64_0 = instance_place(x + 3, y + 0, obj_wall);
+/// @DnDSaveInfo : "object" "abstract_wall"
+var l5F663A64_0 = instance_place(x + 3, y + 0, abstract_wall);
 if (!(l5F663A64_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable

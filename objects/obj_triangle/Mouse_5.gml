@@ -4,8 +4,9 @@
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "4"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_wall"
-var l30A8F82E_0 = instance_place(x + 0, y + 4, obj_wall);
+/// @DnDArgument : "object" "abstract_wall"
+/// @DnDSaveInfo : "object" "abstract_wall"
+var l30A8F82E_0 = instance_place(x + 0, y + 4, abstract_wall);
 if ((l30A8F82E_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Movement.Snap_Position
@@ -28,5 +29,6 @@ if ((l30A8F82E_0 > 0))
 	/// @DnDHash : 5BA90C92
 	/// @DnDParent : 30A8F82E
 	/// @DnDArgument : "objind" "obj_triangle_wall"
+	/// @DnDSaveInfo : "objind" "obj_triangle_wall"
 	instance_change(obj_triangle_wall, true);
 }

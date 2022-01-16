@@ -4,9 +4,10 @@
 /// @DnDArgument : "x" "-1"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_wall"
+/// @DnDArgument : "object" "abstract_wall"
 /// @DnDArgument : "not" "1"
-var l2C0E3777_0 = instance_place(x + -1, y + 0, obj_wall);
+/// @DnDSaveInfo : "object" "abstract_wall"
+var l2C0E3777_0 = instance_place(x + -1, y + 0, abstract_wall);
 if (!(l2C0E3777_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -18,6 +19,7 @@ if (!(l2C0E3777_0 > 0))
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_rectangle_extension"
 	/// @DnDArgument : "layer" ""entities""
+	/// @DnDSaveInfo : "objectid" "obj_rectangle_extension"
 	instance_create_layer(x + -64, y + 0, "entities", obj_rectangle_extension);
 }
 
@@ -27,9 +29,10 @@ if (!(l2C0E3777_0 > 0))
 /// @DnDArgument : "x" "1"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_wall"
+/// @DnDArgument : "object" "abstract_wall"
 /// @DnDArgument : "not" "1"
-var l2734C682_0 = instance_place(x + 1, y + 0, obj_wall);
+/// @DnDSaveInfo : "object" "abstract_wall"
+var l2734C682_0 = instance_place(x + 1, y + 0, abstract_wall);
 if (!(l2734C682_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -41,5 +44,6 @@ if (!(l2734C682_0 > 0))
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_rectangle_extension"
 	/// @DnDArgument : "layer" ""entities""
+	/// @DnDSaveInfo : "objectid" "obj_rectangle_extension"
 	instance_create_layer(x + 64, y + 0, "entities", obj_rectangle_extension);
 }

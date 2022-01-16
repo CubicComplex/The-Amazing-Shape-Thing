@@ -194,9 +194,9 @@ if ((l3C7202F5_0 > 0))
 /// @DnDHash : 1852456A
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_wall"
-/// @DnDSaveInfo : "object" "obj_wall"
-var l1852456A_0 = instance_place(x + 0, y + 0, obj_wall);
+/// @DnDArgument : "object" "abstract_wall"
+/// @DnDSaveInfo : "object" "abstract_wall"
+var l1852456A_0 = instance_place(x + 0, y + 0, abstract_wall);
 if ((l1852456A_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm

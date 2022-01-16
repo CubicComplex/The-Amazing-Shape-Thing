@@ -6,6 +6,7 @@
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "obj" "controller_water_level"
 /// @DnDArgument : "shape" "1"
+/// @DnDSaveInfo : "obj" "controller_water_level"
 var l79B64135_0 = collision_rectangle(0, 0, 64, y + 32, controller_water_level, true, 1);
 if((l79B64135_0))
 {
@@ -16,9 +17,10 @@ if((l79B64135_0))
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-1"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "obj_wall"
+	/// @DnDArgument : "object" "abstract_wall"
 	/// @DnDArgument : "not" "1"
-	var l774A52B7_0 = instance_place(x + 0, y + -1, obj_wall);
+	/// @DnDSaveInfo : "object" "abstract_wall"
+	var l774A52B7_0 = instance_place(x + 0, y + -1, abstract_wall);
 	if (!(l774A52B7_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -41,6 +43,7 @@ if((l79B64135_0))
 /// @DnDArgument : "y2" "room_height"
 /// @DnDArgument : "obj" "controller_water_level"
 /// @DnDArgument : "shape" "1"
+/// @DnDSaveInfo : "obj" "controller_water_level"
 var l27A3D6F7_0 = collision_rectangle(0, y + 64, 64, room_height, controller_water_level, true, 1);
 if((l27A3D6F7_0))
 {
@@ -51,9 +54,10 @@ if((l27A3D6F7_0))
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "1"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "obj_wall"
+	/// @DnDArgument : "object" "abstract_wall"
 	/// @DnDArgument : "not" "1"
-	var l39CFE605_0 = instance_place(x + 0, y + 1, obj_wall);
+	/// @DnDSaveInfo : "object" "abstract_wall"
+	var l39CFE605_0 = instance_place(x + 0, y + 1, abstract_wall);
 	if (!(l39CFE605_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
