@@ -26,8 +26,9 @@ if(activated == true)
 	/// @DnDArgument : "x" "-1"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "obj_wall"
-	var l7F074D66_0 = instance_place(x + -1, y + 0, obj_wall);
+	/// @DnDArgument : "object" "abstract_wall"
+	/// @DnDSaveInfo : "object" "abstract_wall"
+	var l7F074D66_0 = instance_place(x + -1, y + 0, abstract_wall);
 	if ((l7F074D66_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -39,6 +40,7 @@ if(activated == true)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "object" "obj_triangle_wall"
 		/// @DnDArgument : "not" "1"
+		/// @DnDSaveInfo : "object" "obj_triangle_wall"
 		var l40AC3C35_0 = instance_place(x + -1, y + 0, obj_triangle_wall);
 		if (!(l40AC3C35_0 > 0))
 		{
@@ -59,8 +61,9 @@ if(activated == true)
 	/// @DnDArgument : "x" "1"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "obj_wall"
-	var l37929018_0 = instance_place(x + 1, y + 0, obj_wall);
+	/// @DnDArgument : "object" "abstract_wall"
+	/// @DnDSaveInfo : "object" "abstract_wall"
+	var l37929018_0 = instance_place(x + 1, y + 0, abstract_wall);
 	if ((l37929018_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -72,6 +75,7 @@ if(activated == true)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "object" "obj_triangle_wall"
 		/// @DnDArgument : "not" "1"
+		/// @DnDSaveInfo : "object" "obj_triangle_wall"
 		var l2E33A27E_0 = instance_place(x + 1, y + 0, obj_triangle_wall);
 		if (!(l2E33A27E_0 > 0))
 		{
@@ -93,9 +97,10 @@ if(activated == true)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-64"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "obj_wall"
+	/// @DnDArgument : "object" "abstract_wall"
 	/// @DnDArgument : "destroylist" "false"
-	var l7243ED83_0 = instance_place(x + -1, y + -64, obj_wall);
+	/// @DnDSaveInfo : "object" "abstract_wall"
+	var l7243ED83_0 = instance_place(x + -1, y + -64, abstract_wall);
 	if ((l7243ED83_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -109,6 +114,7 @@ if(activated == true)
 		/// @DnDArgument : "object" "obj_triangle_wall"
 		/// @DnDArgument : "not" "1"
 		/// @DnDArgument : "destroylist" "false"
+		/// @DnDSaveInfo : "object" "obj_triangle_wall"
 		var l46B176EE_0 = instance_place(x + -1, y + -64, obj_triangle_wall);
 		if (!(l46B176EE_0 > 0))
 		{
@@ -130,9 +136,10 @@ if(activated == true)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-64"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "obj_wall"
+	/// @DnDArgument : "object" "abstract_wall"
 	/// @DnDArgument : "destroylist" "false"
-	var l073F9DD4_0 = instance_place(x + 1, y + -64, obj_wall);
+	/// @DnDSaveInfo : "object" "abstract_wall"
+	var l073F9DD4_0 = instance_place(x + 1, y + -64, abstract_wall);
 	if ((l073F9DD4_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -146,6 +153,7 @@ if(activated == true)
 		/// @DnDArgument : "object" "obj_triangle_wall"
 		/// @DnDArgument : "not" "1"
 		/// @DnDArgument : "destroylist" "false"
+		/// @DnDSaveInfo : "object" "obj_triangle_wall"
 		var l313B24A6_0 = instance_place(x + 1, y + -64, obj_triangle_wall);
 		if (!(l313B24A6_0 > 0))
 		{
@@ -200,9 +208,10 @@ else
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "1"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "obj_wall"
+	/// @DnDArgument : "object" "abstract_wall"
 	/// @DnDArgument : "not" "1"
-	var l6F0B391A_0 = instance_place(x + 0, y + 1, obj_wall);
+	/// @DnDSaveInfo : "object" "abstract_wall"
+	var l6F0B391A_0 = instance_place(x + 0, y + 1, abstract_wall);
 	if (!(l6F0B391A_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -225,6 +234,7 @@ else
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "abstract_character"
 /// @DnDArgument : "aslist" "1"
+/// @DnDSaveInfo : "object" "abstract_character"
 var l4D806394_0 = ds_list_create();
 var l4D806394_1 = instance_place_list(x + 0, y + -4, abstract_character, l4D806394_0, true);
 ds_list_destroy(l4D806394_0);

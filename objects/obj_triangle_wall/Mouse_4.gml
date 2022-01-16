@@ -9,7 +9,6 @@ global.name_temp = shape_name;
 /// @DnDVersion : 1
 /// @DnDHash : 3A587A49
 /// @DnDArgument : "objind" "obj_triangle"
-/// @DnDSaveInfo : "objind" "obj_triangle"
 instance_change(obj_triangle, true);
 
 /// @DnDAction : YoYo Games.Common.Variable

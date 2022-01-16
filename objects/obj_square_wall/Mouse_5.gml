@@ -2,7 +2,6 @@
 /// @DnDVersion : 1
 /// @DnDHash : 10ACF27D
 /// @DnDArgument : "objind" "obj_square"
-/// @DnDSaveInfo : "objind" "obj_square"
 instance_change(obj_square, true);
 
 /// @DnDAction : YoYo Games.Common.Variable

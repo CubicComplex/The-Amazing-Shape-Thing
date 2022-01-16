@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Self
 /// @DnDVersion : 1
-/// @DnDHash : 73E2E865
+/// @DnDHash : 179DC24C
 draw_self();
 
 /// @DnDAction : YoYo Games.Particles.Effect

@@ -5,7 +5,6 @@
 /// @DnDArgument : "y" "4"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_wall"
-/// @DnDSaveInfo : "object" "obj_wall"
 var l466C40B5_0 = instance_place(x + 0, y + 4, obj_wall);
 if ((l466C40B5_0 > 0))
 {
@@ -29,6 +28,5 @@ if ((l466C40B5_0 > 0))
 	/// @DnDHash : 5BA90C92
 	/// @DnDParent : 466C40B5
 	/// @DnDArgument : "objind" "obj_square_lift"
-	/// @DnDSaveInfo : "objind" "obj_square_lift"
 	instance_change(obj_square_lift, true);
 }

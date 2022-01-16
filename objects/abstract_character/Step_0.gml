@@ -4,9 +4,10 @@
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "8"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_wall"
+/// @DnDArgument : "object" "abstract_wall"
 /// @DnDArgument : "not" "1"
-var l025CC55A_0 = instance_place(x + 0, y + 8, obj_wall);
+/// @DnDSaveInfo : "object" "abstract_wall"
+var l025CC55A_0 = instance_place(x + 0, y + 8, abstract_wall);
 if (!(l025CC55A_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -33,9 +34,10 @@ else
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "4"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "obj_wall"
+	/// @DnDArgument : "object" "abstract_wall"
 	/// @DnDArgument : "not" "1"
-	var l42DF1141_0 = instance_place(x + 0, y + 4, obj_wall);
+	/// @DnDSaveInfo : "object" "abstract_wall"
+	var l42DF1141_0 = instance_place(x + 0, y + 4, abstract_wall);
 	if (!(l42DF1141_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -63,9 +65,10 @@ else
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y" "2"
 		/// @DnDArgument : "y_relative" "1"
-		/// @DnDArgument : "object" "obj_wall"
+		/// @DnDArgument : "object" "abstract_wall"
 		/// @DnDArgument : "not" "1"
-		var l37107D59_0 = instance_place(x + 0, y + 2, obj_wall);
+		/// @DnDSaveInfo : "object" "abstract_wall"
+		var l37107D59_0 = instance_place(x + 0, y + 2, abstract_wall);
 		if (!(l37107D59_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -93,9 +96,10 @@ else
 			/// @DnDArgument : "x_relative" "1"
 			/// @DnDArgument : "y" "1"
 			/// @DnDArgument : "y_relative" "1"
-			/// @DnDArgument : "object" "obj_wall"
+			/// @DnDArgument : "object" "abstract_wall"
 			/// @DnDArgument : "not" "1"
-			var l0640A8BD_0 = instance_place(x + 0, y + 1, obj_wall);
+			/// @DnDSaveInfo : "object" "abstract_wall"
+			var l0640A8BD_0 = instance_place(x + 0, y + 1, abstract_wall);
 			if (!(l0640A8BD_0 > 0))
 			{
 				/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -107,6 +111,7 @@ else
 				/// @DnDArgument : "y_relative" "1"
 				/// @DnDArgument : "object" "obj_lift"
 				/// @DnDArgument : "not" "1"
+				/// @DnDSaveInfo : "object" "obj_lift"
 				var l45410EAE_0 = instance_place(x + 0, y + 2, obj_lift);
 				if (!(l45410EAE_0 > 0))
 				{
@@ -119,6 +124,7 @@ else
 					/// @DnDArgument : "y_relative" "1"
 					/// @DnDArgument : "object" "obj_triangle_wall"
 					/// @DnDArgument : "not" "1"
+					/// @DnDSaveInfo : "object" "obj_triangle_wall"
 					var l1250F71A_0 = instance_place(x + 0, y + 2, obj_triangle_wall);
 					if (!(l1250F71A_0 > 0))
 					{
@@ -146,6 +152,7 @@ else
 /// @DnDArgument : "y" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_lift"
+/// @DnDSaveInfo : "object" "obj_lift"
 var l6A160258_0 = instance_place(x + 0, y + 1, obj_lift);
 if ((l6A160258_0 > 0))
 {
@@ -167,6 +174,7 @@ if ((l6A160258_0 > 0))
 /// @DnDArgument : "y" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_triangle_wall"
+/// @DnDSaveInfo : "object" "obj_triangle_wall"
 var l3C7202F5_0 = instance_place(x + 0, y + 1, obj_triangle_wall);
 if ((l3C7202F5_0 > 0))
 {
@@ -187,6 +195,7 @@ if ((l3C7202F5_0 > 0))
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_wall"
+/// @DnDSaveInfo : "object" "obj_wall"
 var l1852456A_0 = instance_place(x + 0, y + 0, obj_wall);
 if ((l1852456A_0 > 0))
 {
@@ -206,6 +215,7 @@ if ((l1852456A_0 > 0))
 /// @DnDArgument : "y" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_spikes"
+/// @DnDSaveInfo : "object" "obj_spikes"
 var l70836263_0 = instance_place(x + 0, y + 1, obj_spikes);
 if ((l70836263_0 > 0))
 {

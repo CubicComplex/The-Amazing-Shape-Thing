@@ -4,9 +4,9 @@
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "4"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_wall"
-/// @DnDSaveInfo : "object" "obj_wall"
-var l2055ABBC_0 = instance_place(x + 0, y + 4, obj_wall);
+/// @DnDArgument : "object" "abstract_wall"
+/// @DnDSaveInfo : "object" "abstract_wall"
+var l2055ABBC_0 = instance_place(x + 0, y + 4, abstract_wall);
 if ((l2055ABBC_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Movement.Snap_Position

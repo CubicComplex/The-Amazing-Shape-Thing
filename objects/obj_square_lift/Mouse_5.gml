@@ -9,5 +9,4 @@ global.name_temp = shape_name;
 /// @DnDVersion : 1
 /// @DnDHash : 3A587A49
 /// @DnDArgument : "objind" "obj_lift_square"
-/// @DnDSaveInfo : "objind" "obj_lift_square"
 instance_change(obj_lift_square, true);
